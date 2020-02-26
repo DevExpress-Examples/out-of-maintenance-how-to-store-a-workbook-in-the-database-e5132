@@ -23,7 +23,6 @@ Namespace SpreadsheetToDatabase
 				command.Parameters.Add(dataParameter)
 				command.ExecuteNonQuery()
 			End Using
-			spreadsheetControl1.CreateNewDocument()
 		End Sub
 
 		Private Sub btnDBLoad_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btnDBLoad.Click
