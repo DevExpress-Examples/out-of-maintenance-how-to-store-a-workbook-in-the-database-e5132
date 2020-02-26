@@ -26,7 +26,6 @@ namespace SpreadsheetToDatabase
                 command.Parameters.Add(dataParameter);
                 command.ExecuteNonQuery();
             }
-            spreadsheetControl1.CreateNewDocument();
         }
 
         private void btnDBLoad_Click(object sender, EventArgs e)
